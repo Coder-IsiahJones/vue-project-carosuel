@@ -1,0 +1,29 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "@splidejs/splide-extension-auto-scroll": "^0.5.3",
+    "@splidejs/splide-extension-intersection": "^0.2.0",
+    "@splidejs/vue-splide": "^0.6.12",
+    "vue": "^3.2.45",
+    "vueperslides": "^3.5.1"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.56.1",
+    "vite": "^3.2.4"
+  }
+}
